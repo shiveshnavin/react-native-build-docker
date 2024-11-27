@@ -12,9 +12,9 @@ The upload url parameter is optional. The apk can be found in the ./local-builds
 ```sh
 docker run --rm \
   -v $(pwd)/local-builds:/app/builds \
-  <image id> \
+  semibit/react-native-build \
   https://github.com/fork/repo \
   development \
   XXX_EXPO_TOKEN_XXX \
   https://www.example.com/PUT/upload/url/app.apk
-```
+``` 
