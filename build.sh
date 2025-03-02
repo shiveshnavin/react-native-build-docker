@@ -20,7 +20,7 @@ if [ -d "./workspace/client" ]; then
     echo "Client directory exists at ./workspace/client"
     cd ./workspace/client
 else
-    echo "Client directory does not exists (Are you not using an semibit project?). Switching to ./workspace"
+    echo "Client directory does not exists (Is the react native app present at root?). Switching to ./workspace"
     cd ./workspace
 fi
 
